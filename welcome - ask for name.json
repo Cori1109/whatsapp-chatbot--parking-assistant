@@ -45,7 +45,7 @@
       "id": "9c912f92-e7d7-4ac6-abbe-0009b31b414e",
       "data": [
         {
-          "text": "moshe",
+          "text": "john",
           "alias": "name",
           "meta": "@sys.any",
           "userDefined": false
@@ -62,7 +62,7 @@
           "text": "can i change my name to "
         },
         {
-          "text": "moshe",
+          "text": "john",
           "alias": "name",
           "meta": "@sys.any",
           "userDefined": false
@@ -79,7 +79,7 @@
           "text": "my name is "
         },
         {
-          "text": "moshe",
+          "text": "john",
           "alias": "name",
           "meta": "@sys.any",
           "userDefined": false
@@ -96,7 +96,7 @@
           "text": "change my name to "
         },
         {
-          "text": "moshe",
+          "text": "john",
           "alias": "name",
           "meta": "@sys.any",
           "userDefined": false
@@ -113,7 +113,7 @@
           "text": "update my name to "
         },
         {
-          "text": "moshe",
+          "text": "john",
           "alias": "name",
           "meta": "@sys.any",
           "userDefined": false

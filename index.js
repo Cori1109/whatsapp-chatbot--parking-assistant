@@ -98,7 +98,7 @@ function name(agent) {
   //   agent.originalRequet &&
   //   agent.originalRequest.data.From == "whatsapp:+972523737233"
   // ) {
-  //   // agent.add("Hi Aminadav")
+  //   // agent.add("Hi Cori")
   // }
   agent.add("")
   // agent.setFollowupEvent("we_have_name")

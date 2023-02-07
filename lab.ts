@@ -9,7 +9,7 @@ import { HackParkDialogFlow } from "./hackparkDialogFlow"
 
 // He is from twillio
 async function story0() {
-  var s = new Session("whatsapp:+972523737233")
+  var s = new Session("whatsapp:+12523737233")
   // await s.ask("hi - I want to park")
   await s.ask("map")
 }
@@ -31,11 +31,11 @@ async function story4() {
   var s1 = new Session((Math.random() * 100000).toFixed(0))
   var s2 = new Session((Math.random() * 100000).toFixed(0))
   await s1.ask("hi - I want to park")
-  await s1.ask("Moshe")
+  await s1.ask("John")
   await s1.ask("10")
   await s1.ask("yes")
   await s2.ask("hi - I want to park")
-  await s2.ask("Moshe")
+  await s2.ask("John")
   await s2.ask("23")
   await s2.ask("yes")
   // s1 should be notified.
@@ -49,7 +49,7 @@ async function story5() {
   var s1 = new Session((Math.random() * 100000).toFixed(0))
   var s2 = new Session((Math.random() * 100000).toFixed(0))
   await s1.ask("hi - I want to park")
-  await s1.ask("Moshe")
+  await s1.ask("John")
   await s1.ask("599")
   await s1.ask("yes")
   await s2.ask("let me know who is parking where?")
@@ -68,6 +68,6 @@ class Session {
 }
 
 function story9() {
-  sendWhatsApp("052-8447127", "it's me aminadav")
+  sendWhatsApp("503-9679077", "it's me chris")
 }
 story0()
